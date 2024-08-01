@@ -1,0 +1,111 @@
+$user = App\Models\User::where('id','=',3)->with('state')->first();
+dump($user);
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',3)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',2)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = Group::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+
+
+
+dd($state_imgs,$state_events,$state_groups);
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+
+
+
+dd($state_imgs,$state_events,$state_groups);
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+
+
+
+dd($state_imgs,$state_events,$state_groups);
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+
+
+
+dd($state_imgs,$state_events,$state_groups);
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+
+
+
+dd($state_imgs,$state_events,$state_groups);
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+
+
+
+dd($state_imgs,$state_events,$state_groups);
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+
+
+
+dd($state_imgs,$state_events,$state_groups);
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+
+
+
+dd($state_imgs,$state_events,$state_groups);
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+ $state_events = App\Models\Event::where('state_id', '=', $user->state_id)->get();
+ $state_groups = App\Models\Group::where('state_id', '=', $user->state_id)->get();
+
+
+
+dd($state_imgs,$state_events,$state_groups);
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',2)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',3)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\StateImgs::where('state_id', '=', $user->state_id)->get();
+$user = App\Models\User::where('id','=',1)->with('state')->first();
+$state_imgs = App\Models\Event::where('state_id', '=', $user->state_id)->get();
